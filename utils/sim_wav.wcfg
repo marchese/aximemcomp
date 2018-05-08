@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axi_core_design_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="attributes" />
+            <top_module name="axi_core_design_wrapper_tb" />
+            <top_module name="bit_arith" />
+            <top_module name="bit_utils" />
+            <top_module name="glbl" />
+            <top_module name="tech_package" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="30000000001fs"></ZoomEndTime>
+      <Cursor1Time time="30000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_aclk" type="logic">
+      <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_aresetn" type="logic">
+      <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1449" type="group">
+      <obj_property name="label">Stats</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/burst_write_active" type="logic">
+         <obj_property name="ElementShortName">burst_write_active</obj_property>
+         <obj_property name="ObjectShortName">burst_write_active</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/write_burst_counter" type="array">
+         <obj_property name="ElementShortName">write_burst_counter[2:0]</obj_property>
+         <obj_property name="ObjectShortName">write_burst_counter[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/writes_done" type="logic">
+         <obj_property name="ElementShortName">writes_done</obj_property>
+         <obj_property name="ObjectShortName">writes_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/burst_read_active" type="logic">
+         <obj_property name="ElementShortName">burst_read_active</obj_property>
+         <obj_property name="ObjectShortName">burst_read_active</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/read_burst_counter" type="array">
+         <obj_property name="ElementShortName">read_burst_counter[2:0]</obj_property>
+         <obj_property name="ObjectShortName">read_burst_counter[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/reads_done" type="logic">
+         <obj_property name="ElementShortName">reads_done</obj_property>
+         <obj_property name="ObjectShortName">reads_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/write_index" type="array">
+         <obj_property name="ElementShortName">write_index[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_index[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/read_index" type="array">
+         <obj_property name="ElementShortName">read_index[4:0]</obj_property>
+         <obj_property name="ObjectShortName">read_index[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/compare_done" type="logic">
+         <obj_property name="ElementShortName">compare_done</obj_property>
+         <obj_property name="ObjectShortName">compare_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/read_mismatch" type="logic">
+         <obj_property name="ElementShortName">read_mismatch</obj_property>
+         <obj_property name="ObjectShortName">read_mismatch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/write_resp_error" type="logic">
+         <obj_property name="ElementShortName">write_resp_error</obj_property>
+         <obj_property name="ObjectShortName">write_resp_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/read_resp_error" type="logic">
+         <obj_property name="ElementShortName">read_resp_error</obj_property>
+         <obj_property name="ObjectShortName">read_resp_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_rdata" type="array">
+         <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/expected_rdata" type="array">
+         <obj_property name="ElementShortName">expected_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">expected_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/write_burst_counter" type="array">
+         <obj_property name="ElementShortName">write_burst_counter[2:0]</obj_property>
+         <obj_property name="ObjectShortName">write_burst_counter[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_master/inst/read_burst_counter" type="array">
+         <obj_property name="ElementShortName">read_burst_counter[2:0]</obj_property>
+         <obj_property name="ObjectShortName">read_burst_counter[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group431" type="group">
+      <obj_property name="label">Write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group1511" type="group">
+         <obj_property name="label">Slave</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/slave_write_state" type="other">
+            <obj_property name="ElementShortName">slave_write_state</obj_property>
+            <obj_property name="ObjectShortName">slave_write_state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/count_slave" type="other">
+            <obj_property name="ElementShortName">count_slave</obj_property>
+            <obj_property name="ObjectShortName">count_slave</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_awlen" type="array">
+            <obj_property name="ElementShortName">s_axi_awlen[3:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_awlen[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_awsize" type="array">
+            <obj_property name="ElementShortName">s_axi_awsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_awsize[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_awburst" type="array">
+            <obj_property name="ElementShortName">s_axi_awburst[1:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_awburst[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_awaddr" type="array">
+            <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_awvalid" type="logic">
+            <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+            <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_awready" type="logic">
+            <obj_property name="ElementShortName">s_axi_awready</obj_property>
+            <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/reg_s_axi_awaddr" type="array">
+            <obj_property name="ElementShortName">reg_s_axi_awaddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">reg_s_axi_awaddr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/reg_s_axi_awlen" type="array">
+            <obj_property name="ElementShortName">reg_s_axi_awlen[3:0]</obj_property>
+            <obj_property name="ObjectShortName">reg_s_axi_awlen[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/reg_s_axi_awsize" type="array">
+            <obj_property name="ElementShortName">reg_s_axi_awsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">reg_s_axi_awsize[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/reg_s_axi_awburst" type="array">
+            <obj_property name="ElementShortName">reg_s_axi_awburst[1:0]</obj_property>
+            <obj_property name="ObjectShortName">reg_s_axi_awburst[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_wdata" type="array">
+            <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_wvalid" type="logic">
+            <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+            <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_wready" type="logic">
+            <obj_property name="ElementShortName">s_axi_wready</obj_property>
+            <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_wlast" type="logic">
+            <obj_property name="ElementShortName">s_axi_wlast</obj_property>
+            <obj_property name="ObjectShortName">s_axi_wlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/slave_buffer_available" type="logic">
+            <obj_property name="ElementShortName">slave_buffer_available</obj_property>
+            <obj_property name="ObjectShortName">slave_buffer_available</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/wp_buffer_slave" type="other">
+            <obj_property name="ElementShortName">wp_buffer_slave</obj_property>
+            <obj_property name="ObjectShortName">wp_buffer_slave</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_bresp" type="array">
+            <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_bvalid" type="logic">
+            <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+            <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/s_axi_bready" type="logic">
+            <obj_property name="ElementShortName">s_axi_bready</obj_property>
+            <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1510" type="group">
+         <obj_property name="label">XMatch</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/xmatch_compress_state" type="other">
+            <obj_property name="ElementShortName">xmatch_compress_state</obj_property>
+            <obj_property name="ObjectShortName">xmatch_compress_state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/CLK" type="logic">
+            <obj_property name="ElementShortName">CLK</obj_property>
+            <obj_property name="ObjectShortName">CLK</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_CLEAR" type="logic">
+            <obj_property name="ElementShortName">C_CLEAR</obj_property>
+            <obj_property name="ObjectShortName">C_CLEAR</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_CS" type="logic">
+            <obj_property name="ElementShortName">C_CS</obj_property>
+            <obj_property name="ObjectShortName">C_CS</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_RW" type="logic">
+            <obj_property name="ElementShortName">C_RW</obj_property>
+            <obj_property name="ObjectShortName">C_RW</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_ADDRESS" type="array">
+            <obj_property name="ElementShortName">C_ADDRESS[1:0]</obj_property>
+            <obj_property name="ObjectShortName">C_ADDRESS[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_CONTROL" type="array">
+            <obj_property name="ElementShortName">C_CONTROL[31:0]</obj_property>
+            <obj_property name="ObjectShortName">C_CONTROL[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_BUS_REQUEST_U" type="logic">
+            <obj_property name="ElementShortName">C_BUS_REQUEST_U</obj_property>
+            <obj_property name="ObjectShortName">C_BUS_REQUEST_U</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_BUS_ACKNOWLEDGE_U" type="logic">
+            <obj_property name="ElementShortName">C_BUS_ACKNOWLEDGE_U</obj_property>
+            <obj_property name="ObjectShortName">C_BUS_ACKNOWLEDGE_U</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_U_DATAIN" type="array">
+            <obj_property name="ElementShortName">C_U_DATAIN[31:0]</obj_property>
+            <obj_property name="ObjectShortName">C_U_DATAIN[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_COMPRESSING" type="logic">
+            <obj_property name="ElementShortName">C_COMPRESSING</obj_property>
+            <obj_property name="ObjectShortName">C_COMPRESSING</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_BUS_REQUEST_C" type="logic">
+            <obj_property name="ElementShortName">C_BUS_REQUEST_C</obj_property>
+            <obj_property name="ObjectShortName">C_BUS_REQUEST_C</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_BUS_ACKNOWLEDGE_C" type="logic">
+            <obj_property name="ElementShortName">C_BUS_ACKNOWLEDGE_C</obj_property>
+            <obj_property name="ObjectShortName">C_BUS_ACKNOWLEDGE_C</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_C_DATAOUT" type="array">
+            <obj_property name="ElementShortName">C_C_DATAOUT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">C_C_DATAOUT[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_C_DATA_VALID" type="logic">
+            <obj_property name="ElementShortName">C_C_DATA_VALID</obj_property>
+            <obj_property name="ObjectShortName">C_C_DATA_VALID</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/C_FINISHED" type="logic">
+            <obj_property name="ElementShortName">C_FINISHED</obj_property>
+            <obj_property name="ObjectShortName">C_FINISHED</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/master_buffer_available" type="logic">
+            <obj_property name="ElementShortName">master_buffer_available</obj_property>
+            <obj_property name="ObjectShortName">master_buffer_available</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1512" type="group">
+         <obj_property name="label">Master</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/master_write_state" type="other">
+            <obj_property name="ElementShortName">master_write_state</obj_property>
+            <obj_property name="ObjectShortName">master_write_state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_awlen" type="array">
+            <obj_property name="ElementShortName">m_axi_awlen[3:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_awlen[3:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_awsize" type="array">
+            <obj_property name="ElementShortName">m_axi_awsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_awsize[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_awburst" type="array">
+            <obj_property name="ElementShortName">m_axi_awburst[1:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_awburst[1:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_awaddr" type="array">
+            <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_awvalid" type="logic">
+            <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+            <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_awready" type="logic">
+            <obj_property name="ElementShortName">m_axi_awready</obj_property>
+            <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_wdata" type="array">
+            <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_wvalid" type="logic">
+            <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+            <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_wready" type="logic">
+            <obj_property name="ElementShortName">m_axi_wready</obj_property>
+            <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_wlast" type="logic">
+            <obj_property name="ElementShortName">m_axi_wlast</obj_property>
+            <obj_property name="ObjectShortName">m_axi_wlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_bresp" type="array">
+            <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_bvalid" type="logic">
+            <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+            <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_bready" type="logic">
+            <obj_property name="ElementShortName">m_axi_bready</obj_property>
+            <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/block_base_address_dictionary" type="array">
+            <obj_property name="ElementShortName">block_base_address_dictionary[0:29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">block_base_address_dictionary[0:29][31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/block_len_dictionary" type="array">
+            <obj_property name="ElementShortName">block_len_dictionary[0:29][7:0]</obj_property>
+            <obj_property name="ObjectShortName">block_len_dictionary[0:29][7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1945" type="group">
+      <obj_property name="label">Read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group432" type="group">
+         <obj_property name="label">Slave</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/slave_read_state" type="other">
+            <obj_property name="ElementShortName">slave_read_state</obj_property>
+            <obj_property name="ObjectShortName">slave_read_state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_arlen" type="array">
+            <obj_property name="ElementShortName">s_axi_arlen[3:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_arlen[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_arsize" type="array">
+            <obj_property name="ElementShortName">s_axi_arsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_arsize[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_arburst" type="array">
+            <obj_property name="ElementShortName">s_axi_arburst[1:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_arburst[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_araddr" type="array">
+            <obj_property name="ElementShortName">s_axi_araddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_araddr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_arvalid" type="logic">
+            <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+            <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_arready" type="logic">
+            <obj_property name="ElementShortName">s_axi_arready</obj_property>
+            <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_rdata" type="array">
+            <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_rvalid" type="logic">
+            <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+            <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_rready" type="logic">
+            <obj_property name="ElementShortName">s_axi_rready</obj_property>
+            <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_rlast" type="logic">
+            <obj_property name="ElementShortName">s_axi_rlast</obj_property>
+            <obj_property name="ObjectShortName">s_axi_rlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/s_axi_rresp" type="array">
+            <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group563" type="group">
+         <obj_property name="label">Master</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/master_read_state" type="other">
+            <obj_property name="ElementShortName">master_read_state</obj_property>
+            <obj_property name="ObjectShortName">master_read_state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_araddr" type="array">
+            <obj_property name="ElementShortName">m_axi_araddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_araddr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_arvalid" type="logic">
+            <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+            <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_arready" type="logic">
+            <obj_property name="ElementShortName">m_axi_arready</obj_property>
+            <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_arlen" type="array">
+            <obj_property name="ElementShortName">m_axi_arlen[3:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_arlen[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_arsize" type="array">
+            <obj_property name="ElementShortName">m_axi_arsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_arsize[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_arburst" type="array">
+            <obj_property name="ElementShortName">m_axi_arburst[1:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_arburst[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_rdata" type="array">
+            <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_rvalid" type="logic">
+            <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+            <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_rready" type="logic">
+            <obj_property name="ElementShortName">m_axi_rready</obj_property>
+            <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_rresp" type="array">
+            <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/m_axi_rlast" type="logic">
+            <obj_property name="ElementShortName">m_axi_rlast</obj_property>
+            <obj_property name="ObjectShortName">m_axi_rlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/buffer_slave_read" type="array">
+            <obj_property name="ElementShortName">buffer_slave_read[0:254][31:0]</obj_property>
+            <obj_property name="ObjectShortName">buffer_slave_read[0:254][31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1120" type="group">
+         <obj_property name="label">XMatch</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_CLEAR" type="logic">
+            <obj_property name="ElementShortName">D_CLEAR</obj_property>
+            <obj_property name="ObjectShortName">D_CLEAR</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/xmatch_decompress_state" type="other">
+            <obj_property name="ElementShortName">xmatch_decompress_state</obj_property>
+            <obj_property name="ObjectShortName">xmatch_decompress_state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_CS" type="logic">
+            <obj_property name="ElementShortName">D_CS</obj_property>
+            <obj_property name="ObjectShortName">D_CS</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_RW" type="logic">
+            <obj_property name="ElementShortName">D_RW</obj_property>
+            <obj_property name="ObjectShortName">D_RW</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_ADDRESS" type="array">
+            <obj_property name="ElementShortName">D_ADDRESS[1:0]</obj_property>
+            <obj_property name="ObjectShortName">D_ADDRESS[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_CONTROL" type="array">
+            <obj_property name="ElementShortName">D_CONTROL[31:0]</obj_property>
+            <obj_property name="ObjectShortName">D_CONTROL[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_BUS_REQUEST_C" type="logic">
+            <obj_property name="ElementShortName">D_BUS_REQUEST_C</obj_property>
+            <obj_property name="ObjectShortName">D_BUS_REQUEST_C</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_BUS_ACKNOWLEDGE_C" type="logic">
+            <obj_property name="ElementShortName">D_BUS_ACKNOWLEDGE_C</obj_property>
+            <obj_property name="ObjectShortName">D_BUS_ACKNOWLEDGE_C</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_C_DATAIN" type="array">
+            <obj_property name="ElementShortName">D_C_DATAIN[31:0]</obj_property>
+            <obj_property name="ObjectShortName">D_C_DATAIN[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_C_DATA_VALID" type="logic">
+            <obj_property name="ElementShortName">D_C_DATA_VALID</obj_property>
+            <obj_property name="ObjectShortName">D_C_DATA_VALID</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_DECOMPRESSING" type="logic">
+            <obj_property name="ElementShortName">D_DECOMPRESSING</obj_property>
+            <obj_property name="ObjectShortName">D_DECOMPRESSING</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_U_DATAOUT" type="array">
+            <obj_property name="ElementShortName">D_U_DATAOUT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">D_U_DATAOUT[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_U_DATA_VALID" type="logic">
+            <obj_property name="ElementShortName">D_U_DATA_VALID</obj_property>
+            <obj_property name="ObjectShortName">D_U_DATA_VALID</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/D_FINISHED" type="logic">
+            <obj_property name="ElementShortName">D_FINISHED</obj_property>
+            <obj_property name="ObjectShortName">D_FINISHED</obj_property>
+         </wvobject>
+         <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/buffer_xmatch_decompress" type="array">
+            <obj_property name="ElementShortName">buffer_xmatch_decompress[0:254][31:0]</obj_property>
+            <obj_property name="ObjectShortName">buffer_xmatch_decompress[0:254][31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#808080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_slave/inst/byte_ram" type="array">
+      <obj_property name="ElementShortName">byte_ram[0:256][31:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_ram[0:256][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:255][31:0]</obj_property>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[32]" type="array">
+         <obj_property name="ElementShortName">[32][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[33]" type="array">
+         <obj_property name="ElementShortName">[33][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[34]" type="array">
+         <obj_property name="ElementShortName">[34][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[35]" type="array">
+         <obj_property name="ElementShortName">[35][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[36]" type="array">
+         <obj_property name="ElementShortName">[36][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[37]" type="array">
+         <obj_property name="ElementShortName">[37][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[38]" type="array">
+         <obj_property name="ElementShortName">[38][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[39]" type="array">
+         <obj_property name="ElementShortName">[39][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[40]" type="array">
+         <obj_property name="ElementShortName">[40][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[41]" type="array">
+         <obj_property name="ElementShortName">[41][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[42]" type="array">
+         <obj_property name="ElementShortName">[42][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[43]" type="array">
+         <obj_property name="ElementShortName">[43][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[44]" type="array">
+         <obj_property name="ElementShortName">[44][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[45]" type="array">
+         <obj_property name="ElementShortName">[45][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[46]" type="array">
+         <obj_property name="ElementShortName">[46][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[47]" type="array">
+         <obj_property name="ElementShortName">[47][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[48]" type="array">
+         <obj_property name="ElementShortName">[48][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[49]" type="array">
+         <obj_property name="ElementShortName">[49][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[50]" type="array">
+         <obj_property name="ElementShortName">[50][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[51]" type="array">
+         <obj_property name="ElementShortName">[51][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[52]" type="array">
+         <obj_property name="ElementShortName">[52][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[53]" type="array">
+         <obj_property name="ElementShortName">[53][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[54]" type="array">
+         <obj_property name="ElementShortName">[54][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[55]" type="array">
+         <obj_property name="ElementShortName">[55][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[56]" type="array">
+         <obj_property name="ElementShortName">[56][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[57]" type="array">
+         <obj_property name="ElementShortName">[57][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[58]" type="array">
+         <obj_property name="ElementShortName">[58][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[59]" type="array">
+         <obj_property name="ElementShortName">[59][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[60]" type="array">
+         <obj_property name="ElementShortName">[60][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[61]" type="array">
+         <obj_property name="ElementShortName">[61][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[62]" type="array">
+         <obj_property name="ElementShortName">[62][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[63]" type="array">
+         <obj_property name="ElementShortName">[63][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[64]" type="array">
+         <obj_property name="ElementShortName">[64][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[64][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[65]" type="array">
+         <obj_property name="ElementShortName">[65][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[65][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[66]" type="array">
+         <obj_property name="ElementShortName">[66][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[66][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[67]" type="array">
+         <obj_property name="ElementShortName">[67][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[67][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[68]" type="array">
+         <obj_property name="ElementShortName">[68][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[68][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[69]" type="array">
+         <obj_property name="ElementShortName">[69][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[69][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[70]" type="array">
+         <obj_property name="ElementShortName">[70][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[70][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[71]" type="array">
+         <obj_property name="ElementShortName">[71][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[71][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[72]" type="array">
+         <obj_property name="ElementShortName">[72][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[72][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[73]" type="array">
+         <obj_property name="ElementShortName">[73][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[73][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[74]" type="array">
+         <obj_property name="ElementShortName">[74][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[74][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[75]" type="array">
+         <obj_property name="ElementShortName">[75][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[75][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[76]" type="array">
+         <obj_property name="ElementShortName">[76][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[76][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[77]" type="array">
+         <obj_property name="ElementShortName">[77][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[77][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[78]" type="array">
+         <obj_property name="ElementShortName">[78][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[78][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[79]" type="array">
+         <obj_property name="ElementShortName">[79][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[79][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[80]" type="array">
+         <obj_property name="ElementShortName">[80][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[80][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[81]" type="array">
+         <obj_property name="ElementShortName">[81][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[81][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[82]" type="array">
+         <obj_property name="ElementShortName">[82][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[82][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[83]" type="array">
+         <obj_property name="ElementShortName">[83][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[83][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[84]" type="array">
+         <obj_property name="ElementShortName">[84][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[84][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[85]" type="array">
+         <obj_property name="ElementShortName">[85][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[85][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[86]" type="array">
+         <obj_property name="ElementShortName">[86][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[86][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[87]" type="array">
+         <obj_property name="ElementShortName">[87][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[87][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[88]" type="array">
+         <obj_property name="ElementShortName">[88][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[88][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[89]" type="array">
+         <obj_property name="ElementShortName">[89][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[89][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[90]" type="array">
+         <obj_property name="ElementShortName">[90][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[90][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[91]" type="array">
+         <obj_property name="ElementShortName">[91][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[91][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[92]" type="array">
+         <obj_property name="ElementShortName">[92][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[92][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[93]" type="array">
+         <obj_property name="ElementShortName">[93][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[93][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[94]" type="array">
+         <obj_property name="ElementShortName">[94][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[94][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[95]" type="array">
+         <obj_property name="ElementShortName">[95][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[95][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[96]" type="array">
+         <obj_property name="ElementShortName">[96][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[96][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[97]" type="array">
+         <obj_property name="ElementShortName">[97][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[97][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[98]" type="array">
+         <obj_property name="ElementShortName">[98][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[98][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[99]" type="array">
+         <obj_property name="ElementShortName">[99][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[99][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[100]" type="array">
+         <obj_property name="ElementShortName">[100][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[100][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[101]" type="array">
+         <obj_property name="ElementShortName">[101][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[101][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[102]" type="array">
+         <obj_property name="ElementShortName">[102][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[102][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[103]" type="array">
+         <obj_property name="ElementShortName">[103][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[103][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[104]" type="array">
+         <obj_property name="ElementShortName">[104][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[104][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[105]" type="array">
+         <obj_property name="ElementShortName">[105][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[105][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[106]" type="array">
+         <obj_property name="ElementShortName">[106][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[106][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[107]" type="array">
+         <obj_property name="ElementShortName">[107][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[107][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[108]" type="array">
+         <obj_property name="ElementShortName">[108][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[108][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[109]" type="array">
+         <obj_property name="ElementShortName">[109][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[109][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[110]" type="array">
+         <obj_property name="ElementShortName">[110][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[110][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[111]" type="array">
+         <obj_property name="ElementShortName">[111][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[111][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[112]" type="array">
+         <obj_property name="ElementShortName">[112][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[112][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[113]" type="array">
+         <obj_property name="ElementShortName">[113][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[113][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[114]" type="array">
+         <obj_property name="ElementShortName">[114][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[114][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[115]" type="array">
+         <obj_property name="ElementShortName">[115][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[115][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[116]" type="array">
+         <obj_property name="ElementShortName">[116][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[116][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[117]" type="array">
+         <obj_property name="ElementShortName">[117][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[117][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[118]" type="array">
+         <obj_property name="ElementShortName">[118][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[118][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[119]" type="array">
+         <obj_property name="ElementShortName">[119][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[119][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[120]" type="array">
+         <obj_property name="ElementShortName">[120][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[120][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[121]" type="array">
+         <obj_property name="ElementShortName">[121][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[121][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[122]" type="array">
+         <obj_property name="ElementShortName">[122][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[122][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[123]" type="array">
+         <obj_property name="ElementShortName">[123][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[123][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[124]" type="array">
+         <obj_property name="ElementShortName">[124][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[124][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[125]" type="array">
+         <obj_property name="ElementShortName">[125][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[125][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[126]" type="array">
+         <obj_property name="ElementShortName">[126][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[126][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[127]" type="array">
+         <obj_property name="ElementShortName">[127][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[127][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[128]" type="array">
+         <obj_property name="ElementShortName">[128][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[128][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[129]" type="array">
+         <obj_property name="ElementShortName">[129][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[129][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[130]" type="array">
+         <obj_property name="ElementShortName">[130][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[130][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[131]" type="array">
+         <obj_property name="ElementShortName">[131][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[131][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[132]" type="array">
+         <obj_property name="ElementShortName">[132][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[132][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[133]" type="array">
+         <obj_property name="ElementShortName">[133][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[133][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[134]" type="array">
+         <obj_property name="ElementShortName">[134][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[134][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[135]" type="array">
+         <obj_property name="ElementShortName">[135][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[135][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[136]" type="array">
+         <obj_property name="ElementShortName">[136][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[136][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[137]" type="array">
+         <obj_property name="ElementShortName">[137][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[137][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[138]" type="array">
+         <obj_property name="ElementShortName">[138][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[138][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[139]" type="array">
+         <obj_property name="ElementShortName">[139][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[139][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[140]" type="array">
+         <obj_property name="ElementShortName">[140][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[140][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[141]" type="array">
+         <obj_property name="ElementShortName">[141][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[141][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[142]" type="array">
+         <obj_property name="ElementShortName">[142][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[142][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[143]" type="array">
+         <obj_property name="ElementShortName">[143][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[143][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[144]" type="array">
+         <obj_property name="ElementShortName">[144][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[144][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[145]" type="array">
+         <obj_property name="ElementShortName">[145][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[145][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[146]" type="array">
+         <obj_property name="ElementShortName">[146][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[146][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[147]" type="array">
+         <obj_property name="ElementShortName">[147][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[147][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[148]" type="array">
+         <obj_property name="ElementShortName">[148][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[148][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[149]" type="array">
+         <obj_property name="ElementShortName">[149][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[149][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[150]" type="array">
+         <obj_property name="ElementShortName">[150][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[150][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[151]" type="array">
+         <obj_property name="ElementShortName">[151][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[151][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[152]" type="array">
+         <obj_property name="ElementShortName">[152][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[152][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[153]" type="array">
+         <obj_property name="ElementShortName">[153][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[153][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[154]" type="array">
+         <obj_property name="ElementShortName">[154][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[154][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[155]" type="array">
+         <obj_property name="ElementShortName">[155][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[155][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[156]" type="array">
+         <obj_property name="ElementShortName">[156][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[156][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[157]" type="array">
+         <obj_property name="ElementShortName">[157][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[157][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[158]" type="array">
+         <obj_property name="ElementShortName">[158][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[158][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[159]" type="array">
+         <obj_property name="ElementShortName">[159][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[159][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[160]" type="array">
+         <obj_property name="ElementShortName">[160][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[160][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[161]" type="array">
+         <obj_property name="ElementShortName">[161][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[161][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[162]" type="array">
+         <obj_property name="ElementShortName">[162][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[162][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[163]" type="array">
+         <obj_property name="ElementShortName">[163][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[163][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[164]" type="array">
+         <obj_property name="ElementShortName">[164][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[164][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[165]" type="array">
+         <obj_property name="ElementShortName">[165][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[165][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[166]" type="array">
+         <obj_property name="ElementShortName">[166][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[166][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[167]" type="array">
+         <obj_property name="ElementShortName">[167][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[167][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[168]" type="array">
+         <obj_property name="ElementShortName">[168][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[168][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[169]" type="array">
+         <obj_property name="ElementShortName">[169][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[169][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[170]" type="array">
+         <obj_property name="ElementShortName">[170][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[170][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[171]" type="array">
+         <obj_property name="ElementShortName">[171][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[171][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[172]" type="array">
+         <obj_property name="ElementShortName">[172][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[172][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[173]" type="array">
+         <obj_property name="ElementShortName">[173][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[173][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[174]" type="array">
+         <obj_property name="ElementShortName">[174][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[174][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[175]" type="array">
+         <obj_property name="ElementShortName">[175][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[175][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[176]" type="array">
+         <obj_property name="ElementShortName">[176][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[176][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[177]" type="array">
+         <obj_property name="ElementShortName">[177][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[177][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[178]" type="array">
+         <obj_property name="ElementShortName">[178][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[178][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[179]" type="array">
+         <obj_property name="ElementShortName">[179][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[179][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[180]" type="array">
+         <obj_property name="ElementShortName">[180][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[180][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[181]" type="array">
+         <obj_property name="ElementShortName">[181][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[181][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[182]" type="array">
+         <obj_property name="ElementShortName">[182][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[182][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[183]" type="array">
+         <obj_property name="ElementShortName">[183][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[183][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[184]" type="array">
+         <obj_property name="ElementShortName">[184][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[184][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[185]" type="array">
+         <obj_property name="ElementShortName">[185][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[185][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[186]" type="array">
+         <obj_property name="ElementShortName">[186][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[186][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[187]" type="array">
+         <obj_property name="ElementShortName">[187][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[187][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[188]" type="array">
+         <obj_property name="ElementShortName">[188][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[188][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[189]" type="array">
+         <obj_property name="ElementShortName">[189][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[189][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[190]" type="array">
+         <obj_property name="ElementShortName">[190][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[190][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[191]" type="array">
+         <obj_property name="ElementShortName">[191][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[191][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[192]" type="array">
+         <obj_property name="ElementShortName">[192][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[192][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[193]" type="array">
+         <obj_property name="ElementShortName">[193][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[193][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[194]" type="array">
+         <obj_property name="ElementShortName">[194][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[194][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[195]" type="array">
+         <obj_property name="ElementShortName">[195][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[195][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[196]" type="array">
+         <obj_property name="ElementShortName">[196][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[196][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[197]" type="array">
+         <obj_property name="ElementShortName">[197][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[197][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[198]" type="array">
+         <obj_property name="ElementShortName">[198][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[198][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[199]" type="array">
+         <obj_property name="ElementShortName">[199][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[199][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[200]" type="array">
+         <obj_property name="ElementShortName">[200][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[200][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[201]" type="array">
+         <obj_property name="ElementShortName">[201][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[201][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[202]" type="array">
+         <obj_property name="ElementShortName">[202][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[202][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[203]" type="array">
+         <obj_property name="ElementShortName">[203][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[203][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[204]" type="array">
+         <obj_property name="ElementShortName">[204][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[204][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[205]" type="array">
+         <obj_property name="ElementShortName">[205][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[205][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[206]" type="array">
+         <obj_property name="ElementShortName">[206][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[206][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[207]" type="array">
+         <obj_property name="ElementShortName">[207][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[207][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[208]" type="array">
+         <obj_property name="ElementShortName">[208][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[208][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[209]" type="array">
+         <obj_property name="ElementShortName">[209][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[209][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[210]" type="array">
+         <obj_property name="ElementShortName">[210][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[210][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[211]" type="array">
+         <obj_property name="ElementShortName">[211][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[211][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[212]" type="array">
+         <obj_property name="ElementShortName">[212][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[212][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[213]" type="array">
+         <obj_property name="ElementShortName">[213][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[213][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[214]" type="array">
+         <obj_property name="ElementShortName">[214][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[214][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[215]" type="array">
+         <obj_property name="ElementShortName">[215][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[215][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[216]" type="array">
+         <obj_property name="ElementShortName">[216][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[216][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[217]" type="array">
+         <obj_property name="ElementShortName">[217][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[217][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[218]" type="array">
+         <obj_property name="ElementShortName">[218][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[218][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[219]" type="array">
+         <obj_property name="ElementShortName">[219][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[219][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[220]" type="array">
+         <obj_property name="ElementShortName">[220][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[220][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[221]" type="array">
+         <obj_property name="ElementShortName">[221][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[221][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[222]" type="array">
+         <obj_property name="ElementShortName">[222][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[222][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[223]" type="array">
+         <obj_property name="ElementShortName">[223][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[223][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[224]" type="array">
+         <obj_property name="ElementShortName">[224][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[224][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[225]" type="array">
+         <obj_property name="ElementShortName">[225][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[225][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[226]" type="array">
+         <obj_property name="ElementShortName">[226][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[226][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[227]" type="array">
+         <obj_property name="ElementShortName">[227][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[227][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[228]" type="array">
+         <obj_property name="ElementShortName">[228][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[228][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[229]" type="array">
+         <obj_property name="ElementShortName">[229][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[229][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[230]" type="array">
+         <obj_property name="ElementShortName">[230][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[230][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[231]" type="array">
+         <obj_property name="ElementShortName">[231][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[231][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[232]" type="array">
+         <obj_property name="ElementShortName">[232][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[232][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[233]" type="array">
+         <obj_property name="ElementShortName">[233][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[233][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[234]" type="array">
+         <obj_property name="ElementShortName">[234][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[234][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[235]" type="array">
+         <obj_property name="ElementShortName">[235][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[235][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[236]" type="array">
+         <obj_property name="ElementShortName">[236][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[236][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[237]" type="array">
+         <obj_property name="ElementShortName">[237][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[237][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[238]" type="array">
+         <obj_property name="ElementShortName">[238][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[238][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[239]" type="array">
+         <obj_property name="ElementShortName">[239][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[239][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[240]" type="array">
+         <obj_property name="ElementShortName">[240][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[240][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[241]" type="array">
+         <obj_property name="ElementShortName">[241][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[241][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[242]" type="array">
+         <obj_property name="ElementShortName">[242][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[242][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[243]" type="array">
+         <obj_property name="ElementShortName">[243][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[243][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[244]" type="array">
+         <obj_property name="ElementShortName">[244][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[244][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[245]" type="array">
+         <obj_property name="ElementShortName">[245][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[245][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[246]" type="array">
+         <obj_property name="ElementShortName">[246][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[246][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[247]" type="array">
+         <obj_property name="ElementShortName">[247][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[247][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[248]" type="array">
+         <obj_property name="ElementShortName">[248][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[248][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[249]" type="array">
+         <obj_property name="ElementShortName">[249][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[249][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[250]" type="array">
+         <obj_property name="ElementShortName">[250][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[250][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[251]" type="array">
+         <obj_property name="ElementShortName">[251][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[251][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[252]" type="array">
+         <obj_property name="ElementShortName">[252][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[252][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[253]" type="array">
+         <obj_property name="ElementShortName">[253][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[253][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[254]" type="array">
+         <obj_property name="ElementShortName">[254][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[254][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_ADDRESSES/mem[255]" type="array">
+         <obj_property name="ElementShortName">[255][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[255][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/axi_core_design_wrapper_tb/axi_core_design_i/axi_core/U0/BLOCKS_LENGTHS/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:255][31:0]</obj_property>
+   </wvobject>
+</wave_config>
